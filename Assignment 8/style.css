@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+#logo{
+    width: 100px;
+    height: 50px;
+    margin-right: 50px;
+    
+
+}
+#navbar{
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(#033747,#012733);
+}
+#searchinput{
+    width: 200px;
+    height: 30px;
+    font-size: 25px;
+    
+}
+a:hover{
+background-color: #033747;
+    color:#fff;
+    font-size: 30px;
+}
+button{
+    width: 90px;
+    height: 30px;
+    margin-left: 40px;
+    border-radius: 40%;
+
+}
+
+a{
+    color: white;
+    font-size: 25px;
+    margin-right: 100px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#banner{
+    width: 100%;
+    height: 1000px;
+    background-image:url("bgimage.jpeg");
+    background-repeat : no-repeat;
+    background-size: cover;
+
+}
+
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.section-heading{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.services-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.services-card{
+    width: 350px;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.services-card:hover{
+    transform: translateY(-20px);
+}
+.services-card i{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+.services-card h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.services-card p{
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+}
+@media screen and (max-width:768px) {
+    .services-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8WZcEn2IH2DSECczOln5hq_MHxozDccgfHA&usqp=CAU");
+    margin: 50px;
+background-repeat: no-repeat;
+background-size: 300px 300px;
+background-position: center center;
+}
+p{
+    text-align: center;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjJ7favsp0AtxcO7YamXyKcYMlVx3DbtJK5lwWAjG-ZsQZTkwQE3JfzsGDvrKJzl1EaHg&usqp=CAU);
+    margin: 50px;
+background-repeat: no-repeat;
+background-size: 300px 300px;
+background-position: center center;
+}
+#aboutus{
+      width: 100%;
+      height: 100px;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG6FKDUO-RzCshddgi1SNb6gnVKoMVvcpG_g&usqp=CAU);
+    margin-top: 300px;
+background-repeat: no-repeat;
+background-size: 300px 300px;
+background-position: center center;
+}
+.footer{
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+      
+      /* Set a specific color for each brand */
+      
+      /* Facebook */
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      
+}
+
